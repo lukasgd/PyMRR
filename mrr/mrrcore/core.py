@@ -161,7 +161,7 @@ class MRRArray(np.ndarray):
 
     def print_attributes(self):
         "Print the MRRArray's attributes."
-        print self._get_attributes_string()
+        print(self._get_attributes_string())
 
     def get_attributes(self):
         "Returns the attributes as dictionary."
